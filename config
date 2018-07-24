@@ -1,0 +1,12 @@
+{
+	"config": 
+	{
+		"tool":"alt-in", 
+		"tool-dir":"../alt-in", 
+		"executor":"python", 
+		"runfile":"altintool.py", 
+		"input-file-names":["interactors.tsv", "diabetes_ensembl_protein.fa", "string_protein.fa"], 
+		"output-file-names":["results.txt"], 
+		"input-dir":"test"
+	}
+}

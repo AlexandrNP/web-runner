@@ -1,0 +1,1 @@
+curl -i -H "Content-Type: application/json" -X POST -d '{"config": {"tool":"alt-in", "tool-dir":"../alt-in", "executor":"python", "runfile":"altintool.py", "input-file-names":["interactors.tsv", "diabetes_ensembl_protein.fa", "diabetes_ensembl_protein.fa", "string_protein.fa"], "output-file-names":["results.txt"], "input-dir":"test"}}' http://localhost:5000/api/config
