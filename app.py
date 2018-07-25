@@ -130,6 +130,6 @@ def run_tool():
 
 if __name__ == '__main__':
 	setup_environment()
-	app.run(debug=True)
+	app.run(host='0.0.0.0', port=5000)
 	#if CONFIG is not None:
 	#	clean_environment()
